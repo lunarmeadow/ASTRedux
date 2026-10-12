@@ -6,7 +6,7 @@ using Avalonia.Platform.Storage;
 using Avalonia.Threading;
 using ManagedBass;
 
-namespace ASTRedux.View;
+namespace ASTRedux;
 public partial class MainWindow : Window
 {
     private const int SFX_MODE = 0;
