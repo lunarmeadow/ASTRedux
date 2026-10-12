@@ -1,9 +1,9 @@
 ﻿using System.Drawing;
 using System.Linq;
-using ASTRedux.Data.Format;
-using ASTRedux.Data.RSound;
-using ASTRedux.Data.RSound.Block;
-using ASTRedux.FileModels;
+using ASTRedux.Model.Data.Format;
+using ASTRedux.Model.Data.RSound;
+using ASTRedux.Model.Data.RSound.Block;
+using ASTRedux.Model.Data.AST;
 using ASTRedux.Utils;
 using ASTRedux.Utils.Consts;
 using ASTRedux.Utils.Helpers;

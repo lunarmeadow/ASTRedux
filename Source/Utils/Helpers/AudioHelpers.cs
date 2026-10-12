@@ -1,4 +1,4 @@
-﻿using ASTRedux.Data.Format;
+﻿using ASTRedux.Model.Data.Format;
 using ManagedBass;
 
 namespace ASTRedux.Utils.Helpers;
