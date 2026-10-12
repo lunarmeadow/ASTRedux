@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using ASTRedux.Utils.Consts;
 
-namespace ASTRedux.Data.RSound;
+namespace ASTRedux.Model.Data.RSound;
 
 [StructLayout(LayoutKind.Sequential, Pack = 1)]
 internal struct RSoundHeader(int len, int csrOff, int cshOff, int csbOff)

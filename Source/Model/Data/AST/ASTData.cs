@@ -1,6 +1,6 @@
-﻿using ASTRedux.Data.Format;
+﻿using ASTRedux.Model.Data.Format;
 
-namespace ASTRedux.Data.AST;
+namespace ASTRedux.Model.Data.AST;
 
 /*
  * Header Format:

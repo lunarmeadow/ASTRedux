@@ -1,10 +1,10 @@
 ﻿using System.Runtime.CompilerServices;
-using ASTRedux.Data.AST;
-using ASTRedux.Data.Format;
+using ASTRedux.Model.Data.AST;
+using ASTRedux.Model.Data.Format;
 using ASTRedux.Utils;
 using ManagedBass;
 
-namespace ASTRedux.FileModels;
+namespace ASTRedux.Model.Data.AST;
 
 internal class ASTFile
 {

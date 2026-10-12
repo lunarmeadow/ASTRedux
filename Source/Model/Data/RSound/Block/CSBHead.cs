@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using ASTRedux.Utils.Consts;
 
-namespace ASTRedux.Data.RSound.Sub;
+namespace ASTRedux.Model.Data.RSound.Block;
 
 [StructLayout(LayoutKind.Sequential, Pack = 1)]
 internal struct CSBHead(int dataSize, int waveCnt, int csbStart, int audioStart, int audioSize)

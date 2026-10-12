@@ -1,8 +1,8 @@
 ﻿using System.Runtime.InteropServices;
-using ASTRedux.Data.Format;
+using ASTRedux.Model.Data.Format;
 using ASTRedux.Utils.Consts;
 
-namespace ASTRedux.Data.RSound.Sub;
+namespace ASTRedux.Model.Data.RSound.Block;
 
 // always padded to 0x40
 [StructLayout(LayoutKind.Sequential, Pack = 1)]

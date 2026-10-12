@@ -1,9 +1,9 @@
 ﻿using System.Runtime.InteropServices;
-using ASTRedux.Data.RSound;
-using ASTRedux.Data.RSound.Sub;
+using ASTRedux.Model.Data.RSound;
+using ASTRedux.Model.Data.RSound.Block;
 using ASTRedux.Utils;
 
-namespace ASTRedux.FileModels;
+namespace ASTRedux.Model.Data.RSound;
 
 [StructLayout(LayoutKind.Sequential, Pack = 1)]
 internal class SoundFile

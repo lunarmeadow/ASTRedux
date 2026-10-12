@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace ASTRedux.Data.Format;
+namespace ASTRedux.Model.Data.Format;
 
 [StructLayout(LayoutKind.Sequential, Pack = 1)]
 internal struct SampleFormat

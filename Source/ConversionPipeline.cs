@@ -2,7 +2,7 @@
 using System.Linq;
 using ASTRedux.Data.Format;
 using ASTRedux.Data.RSound;
-using ASTRedux.Data.RSound.Sub;
+using ASTRedux.Data.RSound.Block;
 using ASTRedux.FileModels;
 using ASTRedux.Utils;
 using ASTRedux.Utils.Consts;

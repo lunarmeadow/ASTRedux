@@ -5,7 +5,7 @@ using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using ManagedBass;
 
-namespace ASTRedux;
+namespace ASTRedux.View;
 
 public partial class App : Application
 {

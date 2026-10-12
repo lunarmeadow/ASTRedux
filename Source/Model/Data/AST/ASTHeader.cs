@@ -1,8 +1,7 @@
 ﻿using System.Runtime.InteropServices;
-using ASTRedux.Data.Format;
-using ASTRedux.FileModels;
+using ASTRedux.Model.Data.Format;
 
-namespace ASTRedux.Data.AST;
+namespace ASTRedux.Model.Data.AST;
 
 /*
  * Header Format:
