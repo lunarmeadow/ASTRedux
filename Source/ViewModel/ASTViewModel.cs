@@ -1,8 +1,9 @@
 using System;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace ASTRedux.ViewModel;
 
-public class ASTViewModel
+public partial class ASTViewModel : ObservableObject
 {
 
 }

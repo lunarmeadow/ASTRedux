@@ -1,8 +1,9 @@
 using System;
+using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace ASTRedux.ViewModel;
 
-public class RSoundViewModel
+public partial class RSoundViewModel : ObservableObject
 {
 
 }

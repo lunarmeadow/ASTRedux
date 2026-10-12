@@ -9,23 +9,6 @@ using ManagedBass;
 namespace ASTRedux;
 public partial class MainWindow : Window
 {
-    private const int SFX_MODE = 0;
-    private const int MUSIC_MODE = 1;
-
-    private FilePickerFileType soundType = new("Dead Rising Sound Files")
-    {
-        Patterns = new[] { "*.rSoundSnd", "*.snd" },
-        AppleUniformTypeIdentifiers = null,
-        MimeTypes = null
-    };
-
-    private FilePickerFileType musicType = new("Dead Rising Music Files")
-    {
-        Patterns = new[] { "*.rSoundAst", "*.ast" },
-        AppleUniformTypeIdentifiers = null,
-        MimeTypes = null
-    };
-
     public MainWindow()
     {
         InitializeComponent();
