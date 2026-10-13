@@ -58,8 +58,6 @@ public partial class App : Application
                 Bass.Init();
                 Logger.Message("BASS initialized!");  
                 PluginLoader.LoadPlugins(AppContext.BaseDirectory);
-
-                _ServiceProvider.GetRequiredService<NavService>().NavigateTo<ASTViewModel>();
             };
         }
         base.OnFrameworkInitializationCompleted();

@@ -37,7 +37,9 @@
           Width="800" Height="450">
         <TabControl Name="ModeTab" 
             Grid.Column="0" Grid.Row="0" 
-            Grid.RowSpan="1" Grid.ColumnSpan="6">
+            Grid.RowSpan="1" Grid.ColumnSpan="6"
+            x:CompileBindings="False"
+            SelectedIndex="{Binding SelectedTab, Mode=TwoWay}">
                 <TabItem 
                     Name="SFXTab"
                     Header="Sound Effects"/>
@@ -51,9 +53,6 @@
             <TextBlock x:Name="LogWindow"
                        HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
         </ScrollViewer>
-        <ProgressBar Grid.Row="6" Grid.Column="0" 
-                    Grid.ColumnSpan="6">
-        </ProgressBar>
         <StackPanel Grid.Row="1" Grid.Column="6" Grid.ColumnSpan="2">
         <ComboBox Name="LogSelect"
                     Margin="20,0,0,0"
@@ -96,9 +95,9 @@
             2025 - 2026.<LineBreak />
         </TextBlock>
         <ContentControl
-            Grid.Row="7"
-            Grid.ColumnSpan="8"
-            Grid.RowSpan="1"
+            Grid.Row="6"
+            Grid.ColumnSpan="6"
+            Grid.RowSpan="2"
             HorizontalAlignment="Stretch" 
             VerticalAlignment="Stretch"
             HorizontalContentAlignment="Stretch"

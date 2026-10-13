@@ -4,5 +4,16 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="ASTRedux.View.ASTView">
-  Welcome to Avalonia!
+  <Grid ColumnDefinitions="*, *, *, *" 
+          RowDefinitions="*, *">
+    <ProgressBar Grid.RowSpan = "1" Grid.ColumnSpan="4"/>
+    <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+            Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" 
+            Content="Convert Sound File to AST" />
+    <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+            HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+            Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" 
+            Content="Convert AST to Sound File" />
+  </Grid>
 </UserControl>
